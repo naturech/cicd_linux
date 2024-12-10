@@ -29,6 +29,6 @@ password: $11
 secrets.DOCKERHUB_TOKEN 7)
 - name: Build Docker
 image
-run: docker build -t dweblab/songdo •
+run: docker build -t zjarhd23/songdo •
 - name: Push docker image
 run: docker push dweblab/songdo: latest
